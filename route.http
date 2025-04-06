@@ -1,0 +1,11 @@
+POST http://localhost:3333/calls
+Content-Type: application/json
+
+{
+  "name": "Ana",
+  "location": "Avenida frederico de paulo cunha numero 100"
+}
+
+###
+
+GET http://localhost:3333/calls
